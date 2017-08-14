@@ -1,0 +1,25 @@
+{
+  "name": "toggl-desktop",
+  "version": "1.0.0",
+  "description": "Simple full toggl desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.toggl.desktop.toggl",
+    "productName": "Toggl Desktop Full"
+  },
+  "keywords": [],
+  "author": "Nacho Valera",
+  "license": "ISC",
+  "dependencies": {
+    "electron-reload": "^1.2.1"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5"
+  }
+}
